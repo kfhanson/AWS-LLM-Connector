@@ -1,0 +1,31 @@
+{
+  "consoles": [
+    {
+      "name": "PlayStation 5",
+      "price_usd": 499.99,
+      "storage": "825GB SSD"
+    },
+    {
+      "name": "Xbox Series X",
+      "price_usd": 499.99,
+      "storage": "1TB SSD"
+    },
+    {
+      "name": "Nintendo Switch OLED",
+      "price_usd": 349.99,
+      "storage": "64GB"
+    }
+  ],
+  "games": [
+    {
+      "title": "Cyberpunk 2077",
+      "platform": "PS5, Xbox Series X, PC",
+      "price_usd": 59.99
+    },
+    {
+      "title": "The Legend of Zelda: Tears of the Kingdom",
+      "platform": "Nintendo Switch",
+      "price_usd": 69.99
+    }
+  ]
+}
