@@ -2,7 +2,8 @@
 
 This project demonstrates how to build a serverless AI assistant using AWS Lambda to query a Large Language Model (LLM) hosted on Amazon SageMaker. The assistant can answer general video game questions and, optionally, provide pricing information by fetching data from an S3 bucket.
 
-Complete story written in my (Medium)[https://medium.com/@karldritz/simple-aws-cloud-llm-implementation-project-09405c17dfcd]
+Complete story written in my [Medium](https://medium.com/@karldritz/simple-aws-cloud-llm-implementation-project-09405c17dfcd)
+
 ## Features
 
 *   Responds to general video game-related questions.
