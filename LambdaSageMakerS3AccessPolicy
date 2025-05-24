@@ -1,0 +1,26 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "AllowInvokeEndpoint",
+			"Effect": "Allow",
+			"Action": "sagemaker:InvokeEndpoint",
+			"Resource": [
+				"arn:aws:sagemaker:ap-southeast-2:440764891817:endpoint/meta-textgeneration-llama-2-7b",
+				"arn:aws:sagemaker:ap-southeast-2:440764891817:inference-component/meta-textgeneration-llama-2-7b"
+			]
+		},
+		{
+			"Sid": "S3",
+			"Effect": "Allow",
+			"Action": [
+				"s3:GetObject",
+				"s3:ListBucket"
+			],
+			"Resource": [
+				"arn:aws:s3:::kfhanson-llm-bucket",
+				"arn:aws:s3:::kfhanson-llm-bucket/*"
+			]
+		}
+	]
+}
